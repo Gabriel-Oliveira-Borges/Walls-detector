@@ -13,6 +13,9 @@
 		DB2DFC3A27E6692C0044AC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2DFC3827E6692C0044AC9C /* Main.storyboard */; };
 		DB2DFC3C27E6692E0044AC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2DFC3B27E6692E0044AC9C /* Assets.xcassets */; };
 		DB2DFC3F27E6692E0044AC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2DFC3D27E6692E0044AC9C /* LaunchScreen.storyboard */; };
+		DB2DFC4727E66B030044AC9C /* WallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2DFC4627E66B030044AC9C /* WallNode.swift */; };
+		DB2DFC4A27E671090044AC9C /* ColorsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2DFC4827E671090044AC9C /* ColorsCollectionViewCell.swift */; };
+		DB2DFC4B27E671090044AC9C /* ColorsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB2DFC4927E671090044AC9C /* ColorsCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DB2DFC3B27E6692E0044AC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB2DFC3E27E6692E0044AC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB2DFC4027E6692E0044AC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2DFC4627E66B030044AC9C /* WallNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallNode.swift; sourceTree = "<group>"; };
+		DB2DFC4827E671090044AC9C /* ColorsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB2DFC4927E671090044AC9C /* ColorsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorsCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				DB2DFC3B27E6692E0044AC9C /* Assets.xcassets */,
 				DB2DFC3D27E6692E0044AC9C /* LaunchScreen.storyboard */,
 				DB2DFC4027E6692E0044AC9C /* Info.plist */,
+				DB2DFC4627E66B030044AC9C /* WallNode.swift */,
+				DB2DFC4827E671090044AC9C /* ColorsCollectionViewCell.swift */,
+				DB2DFC4927E671090044AC9C /* ColorsCollectionViewCell.xib */,
 			);
 			path = "Deteccao de planos";
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			files = (
 				DB2DFC3F27E6692E0044AC9C /* LaunchScreen.storyboard in Resources */,
 				DB2DFC3C27E6692E0044AC9C /* Assets.xcassets in Resources */,
+				DB2DFC4B27E671090044AC9C /* ColorsCollectionViewCell.xib in Resources */,
 				DB2DFC3A27E6692C0044AC9C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB2DFC3727E6692C0044AC9C /* ViewController.swift in Sources */,
+				DB2DFC4A27E671090044AC9C /* ColorsCollectionViewCell.swift in Sources */,
 				DB2DFC3327E6692C0044AC9C /* AppDelegate.swift in Sources */,
 				DB2DFC3527E6692C0044AC9C /* SceneDelegate.swift in Sources */,
+				DB2DFC4727E66B030044AC9C /* WallNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
