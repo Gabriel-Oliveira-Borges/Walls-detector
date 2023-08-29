@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         collectionView.dataSource = self
     }
     
-    @objc func didTapNode(sender: UITapGestureRecognizer) {
+    @objc private func didTapNode(sender: UITapGestureRecognizer) {
         let tappedSceneView = sender.view as! SCNView
         let touchCoordenates = sender.location(in: tappedSceneView)
         let hitTest = tappedSceneView.hitTest(touchCoordenates)
